@@ -1,2 +1,2 @@
-# Orvex-control-systems-website
-This is the sebsite for my hackclub project: Orvex Control Systems
+# Orvex-website
+This is the website for my hackclub project Orvex
