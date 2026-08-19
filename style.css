@@ -1,0 +1,67 @@
+* {
+        box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+                font-family: Arial, sans-serif;
+                }
+
+                .top-bar {
+                    display: flex;
+                        justify-content: space-between;
+                            align-items: center;
+                                padding: 15px 30px;
+                                    background: #111;
+                                    }
+
+                                    .logo {
+                                        color: white;
+                                            text-decoration: none;
+                                                font-size: 24px;
+                                                    font-weight: bold;
+                                                    }
+
+                                                    nav {
+                                                        display: flex;
+                                                            align-items: center;
+                                                                gap: 25px;
+                                                                }
+
+                                                                nav a,
+                                                                .dropdown-button {
+                                                                    color: white;
+                                                                        text-decoration: none;
+                                                                            background: none;
+                                                                                border: none;
+                                                                                    font-size: 16px;
+                                                                                        cursor: pointer;
+                                                                                        }
+
+                                                                                        .dropdown {
+                                                                                            position: relative;
+                                                                                            }
+
+                                                                                            .dropdown-menu {
+                                                                                                display: none;
+                                                                                                    position: absolute;
+                                                                                                        top: 100%;
+                                                                                                            left: 0;
+                                                                                                                min-width: 180px;
+                                                                                                                    background: #222;
+                                                                                                                        padding: 10px 0;
+                                                                                                                        }
+
+                                                                                                                        .dropdown-menu a {
+                                                                                                                            display: block;
+                                                                                                                                padding: 10px 15px;
+                                                                                                                                }
+
+                                                                                                                                .dropdown-menu a:hover {
+                                                                                                                                    background: #333;
+                                                                                                                                    }
+
+                                                                                                                                    .dropdown:hover .dropdown-menu {
+                                                                                                                                        display: block;
+                                                                                                                                        }
+}
